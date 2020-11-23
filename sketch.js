@@ -72,7 +72,7 @@ function draw() {
   
     if(obstaclesGroup.isTouching(monkey)){
         ground.velocityX = 0;
-        monkey.velocityY = 0;
+        // monkey.velocityY = 0;
         obstaclesGroup.setVelocityXEach(0);
         FoodGroup.setVelocityXEach(0);
         obstaclesGroup.setLifetimeEach(-1);
